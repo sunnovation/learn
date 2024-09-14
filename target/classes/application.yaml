@@ -1,0 +1,9 @@
+spring:
+   ai:
+    ollama:
+      llama3.1
+    vectorstore:
+     pgvector:
+      index-type: HNSW
+      distance-type: COSINE_DISTANCE
+      dimensions: 1536
